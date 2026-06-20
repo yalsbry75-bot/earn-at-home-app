@@ -1,0 +1,105 @@
+{
+  "name": "اكسب من المنزل - Earn at Home",
+  "short_name": "Earn@Home",
+  "description": "منصة متكاملة للعمل من المنزل وتحقيق الدخل - Integrated platform to earn money from home",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0e27",
+  "background_color": "#0a0e27",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["productivity", "business"],
+  "screenshots": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المهام",
+      "short_name": "المهام",
+      "description": "عرض المهام المتاحة",
+      "url": "/tasks",
+      "icons": [
+        {
+          "src": "/app-icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "المحفظة",
+      "short_name": "المحفظة",
+      "description": "عرض رصيدك ومحفظتك",
+      "url": "/wallet",
+      "icons": [
+        {
+          "src": "/app-icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "الإحالات",
+      "short_name": "الإحالات",
+      "description": "برنامج الإحالات والعمولات",
+      "url": "/referrals",
+      "icons": [
+        {
+          "src": "/app-icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

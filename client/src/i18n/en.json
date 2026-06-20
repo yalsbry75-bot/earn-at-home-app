@@ -1,0 +1,89 @@
+{
+  "common": {
+    "appName": "Earn at Home",
+    "appDescription": "Comprehensive platform for working from home and earning income",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "logout": "Logout",
+    "language": "Language",
+    "theme": "Theme",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "displayName": "Name",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Invalid email address",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password is too short",
+    "passwordMismatch": "Passwords do not match",
+    "loginSuccess": "Successfully logged in",
+    "registerSuccess": "Account created successfully",
+    "logoutSuccess": "Successfully logged out"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "statistics": "Statistics"
+  },
+  "profile": {
+    "title": "Profile",
+    "displayName": "Name",
+    "email": "Email",
+    "photoURL": "Profile Picture",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "privacy": "Privacy",
+    "notifications": "Notifications",
+    "language": "Language",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "systemMode": "System Mode",
+    "enableNotifications": "Enable Notifications",
+    "offlineMode": "Offline Mode"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "serverError": "Server error",
+    "networkError": "Network error",
+    "tryAgain": "Try again"
+  }
+}

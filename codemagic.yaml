@@ -1,0 +1,20 @@
+workflows:
+  earn-at-home-build:
+    name: Earn At Home Web Build
+    max_build_duration: 60
+    instance_type: mac_mini_m1
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+    scripts:
+      - name: Install Dependencies and Build
+        script: |
+          pnpm install
+          cd client
+          pnpm install
+          pnpm build
+    artifacts:
+      - client/dist/**/*

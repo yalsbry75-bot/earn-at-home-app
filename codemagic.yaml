@@ -10,7 +10,7 @@ workflows:
         - pattern: main
           include: true
     scripts:
-      - name: Install Dependencies and Build
+      - name: Install and Build
         script: |
           pnpm install
           cd client
@@ -18,5 +18,3 @@ workflows:
           pnpm build
     artifacts:
       - client/dist/**/*
-artifacts:
-  - client/dist/**/*

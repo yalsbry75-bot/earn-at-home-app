@@ -18,3 +18,5 @@ workflows:
           pnpm build
     artifacts:
       - client/dist/**/*
+artifacts:
+  - client/dist/**/*
